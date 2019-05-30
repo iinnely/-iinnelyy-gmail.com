@@ -1,0 +1,113 @@
+body{
+	background: url("../images/fon.jpg") ;
+}
+main{margin: 0 auto;
+	background-color: white;
+	width:  1200px;
+	height:5000px;
+}
+nav{display: flex;
+	height: 100px;
+	background-color: #D2B48C;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: white;
+	justify-content: space-between;
+	box-sizing: border-box;
+	position: sticky;
+	 top: 0;
+}
+.img_nav{
+	height: 100px;
+	width: 500px;
+	float: left;
+	display: flex;
+	justify-content: space-around;
+}
+.img_nav img{
+	height: 100px;
+}
+.nav_menu{
+	width: 600px;
+	float: right;
+	height: 100px;
+	text-align: center;
+	margin: 0;
+}
+.nav_menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.nav_menu li{
+	font-family: Times New Ro...;
+	color: white;
+	font-size: 18px;
+	display: inline-block;
+	text-align: center;
+	line-height: 100px;
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+li:hover{
+	background: #ff9933;
+	cursor: pointer;
+	color: #402720;
+}
+.beaty {
+	font-family: Times New Ro...;
+	color: #D2B48C;
+	font-size: 18px;
+	text-align: center;
+}
+.beaty img{
+	width: 1200px;
+}
+
+
+.news {
+  background-color: black;
+  color: white;
+  margin: 100px;
+  padding: 100px;
+}
+.news {
+  background-color: #D2B48C;
+  color: white;
+  
+}
+.img_news{
+ width: 400px;
+     height:341px;
+     text-decoration-line:Notre-Dame
+	float: left;
+	display: flex;
+	
+
+	
+}
+
+.text_news {
+width: 500px;
+float: right;
+height: 1px;
+color: white;
+}
+ .vid_news{
+ 	text-align:center;
+ 	width:420px;
+ 	 background-color: #D2B48C
+ 	}
+ 	button {
+  background-color: #D2B48C;
+   border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
